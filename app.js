@@ -46,6 +46,7 @@ function checkGuess() {
             showTextInInterface('p', 'The secret number is bigger!');
         }
         attempts++;
+        cleanContent();
     }
 }
 
