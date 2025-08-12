@@ -2,7 +2,6 @@ let secretNumbersArray = [];
 let limit = 10;
 let secretNumber = createRandomNumber();
 let attempts = 1;
-// let validationMessage = document.getElementById('validation-text');
 
 function showTextInInterface(tag, text) {
     let content = document.querySelector(tag);
